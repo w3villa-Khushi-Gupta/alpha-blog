@@ -92,7 +92,7 @@ GEM
     matrix (0.4.2)
     method_source (1.0.0)
     mini_mime (1.1.2)
-    mini_portile2 (2.8.1)
+    mini_portile2 (2.8.2)
     minitest (5.18.0)
     net-imap (0.3.4)
       date
@@ -113,8 +113,6 @@ GEM
     nokogiri (1.14.3-x64-mingw32)
       racc (~> 1.4)
     nokogiri (1.14.3-x86-mingw32)
-      racc (~> 1.4)
-    nokogiri (1.14.3-x86_64-linux)
       racc (~> 1.4)
     public_suffix (5.0.1)
     puma (3.12.6)
@@ -184,7 +182,6 @@ GEM
     sqlite3 (1.6.2)
       mini_portile2 (~> 2.8.0)
     sqlite3 (1.6.2-x64-mingw32)
-    sqlite3 (1.6.2-x86_64-linux)
     thor (1.2.1)
     thread_safe (0.3.6)
     thread_safe (0.3.6-java)
@@ -219,7 +216,6 @@ PLATFORMS
   x64-mingw32
   x86-mingw32
   x86-mswin32
-  x86_64-linux
 
 DEPENDENCIES
   byebug
@@ -240,4 +236,4 @@ DEPENDENCIES
   web-console (>= 3.3.0)
 
 BUNDLED WITH
-   2.3.26
+   2.1.2

@@ -1,0 +1,28 @@
+<h1>Index page</h1>
+
+<table>
+    <thead>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Address</th>
+        <th>Phone No.</th>
+        <th>Actions</th>
+    </thead>
+    
+    <tbody>
+        <% @users.each do|user| %>
+        <tr>
+            <td><%=user.first_name%></td>
+            <td><%=user.last_name%></td>
+            <td><%=user.address%></td>
+            <td><%=user.phone_no%></td>
+            <td><%= link_to 'Show' ,user_path(user)%></td>
+            <td><%= link_to 'Edit' ,edit_user_path(user),method: :get%></td>
+            <td><%= link_to 'Delete' , user_path(user), method: :delete, data:{confirm: "Are you sure ?"} %></td>
+        </tr>
+        <% end %>
+    </tbody>
+</table>
+<p>
+<%=link_to 'Create new Article' ,new_user_path()%>
+</p>
