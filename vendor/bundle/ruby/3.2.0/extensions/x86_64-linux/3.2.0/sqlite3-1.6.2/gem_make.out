@@ -1,0 +1,45 @@
+current directory: /home/khushi/rails/alpha-blog/vendor/bundle/ruby/3.2.0/gems/sqlite3-1.6.2/ext/sqlite3
+/usr/share/rvm/rubies/ruby-3.2.2/bin/ruby extconf.rb
+Building sqlite3-ruby using packaged sqlite3.
+Extracting sqlite-autoconf-3410200.tar.gz into tmp/x86_64-linux-gnu/ports/sqlite3/3.41.2... OK
+Running 'configure' for sqlite3 3.41.2... OK
+Running 'compile' for sqlite3 3.41.2... *** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of necessary
+libraries and/or headers.  Check the mkmf.log file for more details.  You may
+need configuration options.
+
+Provided configuration options:
+	--with-opt-dir
+	--without-opt-dir
+	--with-opt-include
+	--without-opt-include=${opt-dir}/include
+	--with-opt-lib
+	--without-opt-lib=${opt-dir}/lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=/usr/share/rvm/rubies/ruby-3.2.2/bin/$(RUBY_BASE_NAME)
+	--help
+	--download-dependencies
+	--with-sqlcipher
+	--without-sqlcipher
+	--with-sqlcipher-dir
+	--without-sqlcipher-dir
+	--with-sqlcipher-include
+	--without-sqlcipher-include
+	--with-sqlcipher-lib
+	--without-sqlcipher-lib
+	--enable-system-libraries
+	--disable-system-libraries
+	--with-sqlcipher
+	--without-sqlcipher
+	--with-sqlcipher-dir
+	--without-sqlcipher-dir
+	--with-sqlcipher-include
+	--without-sqlcipher-include
+	--with-sqlcipher-lib
+	--without-sqlcipher-lib
+	--with-sqlite-source-dir
+
+extconf failed, uncaught signal 1

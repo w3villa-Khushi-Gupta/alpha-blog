@@ -1,0 +1,130 @@
+current directory: /home/khushi/rails/alpha-blog/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.14.4/ext/nokogiri
+/usr/share/rvm/rubies/ruby-3.2.2/bin/ruby extconf.rb
+checking for whether -std=c99 is accepted as CFLAGS... yes
+checking for whether -Wno-declaration-after-statement is accepted as CFLAGS... yes
+checking for whether -O2 is accepted as CFLAGS... yes
+checking for whether -g is accepted as CFLAGS... yes
+checking for whether -Winline is accepted as CFLAGS... yes
+checking for whether -Wmissing-noreturn is accepted as CFLAGS... yes
+checking for whether -Wconversion -Wno-sign-conversion is accepted as CFLAGS... yes
+Building nokogiri using packaged libraries.
+Static linking is enabled.
+Cross build is disabled.
+Using mini_portile version 2.8.2
+checking for iconv... yes
+---------- IMPORTANT NOTICE ----------
+Building Nokogiri with a packaged version of libxml2-2.10.4.
+Configuration options: --host\=x86_64-pc-linux --enable-static --disable-shared --libdir\=/home/khushi/rails/alpha-blog/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.14.4/ports/x86_64-linux/libxml2/2.10.4/lib --with-iconv\=yes --disable-dependency-tracking --without-python --without-readline --with-c14n --with-debug --with-threads --disable-shared --enable-static CFLAGS\=-O2\ -U_FORTIFY_SOURCE\ -g\ -fPIC
+The following patches are being applied:
+  - 0001-Remove-script-macro-support.patch
+  - 0002-Update-entities-to-remove-handling-of-ssi.patch
+  - 0003-libxml2.la-is-in-top_builddir.patch
+  - 0009-allow-wildcard-namespaces.patch
+
+The Nokogiri maintainers intend to provide timely security updates, but if
+this is a concern for you and want to use your OS/distro system library
+instead, then abort this installation process and install nokogiri as
+instructed at:
+
+  https://nokogiri.org/tutorials/installing_nokogiri.html#installing-using-standard-system-libraries
+
+Note, however, that nokogiri cannot guarantee compatibility with every
+version of libxml2 that may be provided by OS/package vendors.
+
+Extracting libxml2-2.10.4.tar.xz into tmp/x86_64-pc-linux/ports/libxml2/2.10.4... OK
+Running git apply with /home/khushi/rails/alpha-blog/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.14.4/patches/libxml2/0001-Remove-script-macro-support.patch... OK
+Running git apply with /home/khushi/rails/alpha-blog/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.14.4/patches/libxml2/0002-Update-entities-to-remove-handling-of-ssi.patch... OK
+Running git apply with /home/khushi/rails/alpha-blog/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.14.4/patches/libxml2/0003-libxml2.la-is-in-top_builddir.patch... OK
+Running git apply with /home/khushi/rails/alpha-blog/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.14.4/patches/libxml2/0009-allow-wildcard-namespaces.patch... OK
+Running 'configure' for libxml2 2.10.4... OK
+Running 'compile' for libxml2 2.10.4... OK
+Running 'install' for libxml2 2.10.4... OK
+Activating libxml2 2.10.4 (from /home/khushi/rails/alpha-blog/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.14.4/ports/x86_64-linux/libxml2/2.10.4)...
+Using mini_portile version 2.8.2
+---------- IMPORTANT NOTICE ----------
+Building Nokogiri with a packaged version of libxslt-1.1.37.
+Configuration options: --host\=x86_64-pc-linux --enable-static --disable-shared --libdir\=/home/khushi/rails/alpha-blog/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.14.4/ports/x86_64-linux/libxslt/1.1.37/lib --disable-dependency-tracking --without-python --without-crypto --with-debug --with-libxml-prefix\=/home/khushi/rails/alpha-blog/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.14.4/ports/x86_64-linux/libxml2/2.10.4 --disable-shared --enable-static CFLAGS\=-O2\ -U_FORTIFY_SOURCE\ -g\ -fPIC
+The following patches are being applied:
+  - 0001-update-automake-files-for-arm64.patch
+
+The Nokogiri maintainers intend to provide timely security updates, but if
+this is a concern for you and want to use your OS/distro system library
+instead, then abort this installation process and install nokogiri as
+instructed at:
+
+  https://nokogiri.org/tutorials/installing_nokogiri.html#installing-using-standard-system-libraries
+
+Extracting libxslt-1.1.37.tar.xz into tmp/x86_64-pc-linux/ports/libxslt/1.1.37... OK
+Running git apply with /home/khushi/rails/alpha-blog/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.14.4/patches/libxslt/0001-update-automake-files-for-arm64.patch... OK
+Running 'configure' for libxslt 1.1.37... OK
+Running 'compile' for libxslt 1.1.37... OK
+Running 'install' for libxslt 1.1.37... OK
+Activating libxslt 1.1.37 (from /home/khushi/rails/alpha-blog/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.14.4/ports/x86_64-linux/libxslt/1.1.37)...
+checking for whether -DNOKOGIRI_PACKAGED_LIBRARIES is accepted as CPPFLAGS... yes
+xml2-config cflags: -I/home/khushi/rails/alpha-blog/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.14.4/ports/x86_64-linux/libxml2/2.10.4/include/libxml2
+checking for whether -DNOKOGIRI_LIBXML2_PATCHES="\"0001-Remove-script-macro-support.patch 0002-Update-entities-to-remove-handling-of-ssi.patch 0003-libxml2.la-is-in-top_builddir.patch 0009-allow-wildcard-namespaces.patch\"" is accepted as CPPFLAGS... yes
+checking for -llzma... no
+checking for -lliblzma... no
+xslt-config cflags: -I/home/khushi/rails/alpha-blog/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.14.4/ports/x86_64-linux/libxml2/2.10.4/include/libxml2 -I/home/khushi/rails/alpha-blog/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.14.4/ports/x86_64-linux/libxslt/1.1.37/include
+checking for whether -DNOKOGIRI_LIBXSLT_PATCHES="\"0001-update-automake-files-for-arm64.patch\"" is accepted as CPPFLAGS... yes
+checking for xmlParseDoc() in libxml/parser.h... yes
+checking for xsltParseStylesheetDoc() in libxslt/xslt.h... yes
+checking for exsltFuncRegister() in libexslt/exslt.h... yes
+Using mini_portile version 2.8.2
+---------- IMPORTANT NOTICE ----------
+Building Nokogiri with a packaged version of libgumbo-1.0.0-nokogiri.
+Configuration options: --disable-shared --enable-static CFLAGS\=-fPIC
+Copying gumbo-parser files into tmp/x86_64-pc-linux/ports/libgumbo/1.0.0-nokogiri/gumbo-parser...
+Running 'compile' for libgumbo 1.0.0-nokogiri... OK
+Activating libgumbo 1.0.0-nokogiri (from ports/x86_64-linux/libgumbo/1.0.0-nokogiri)...
+checking for whether -I/home/khushi/rails/alpha-blog/vendor/bundle/ruby/3.2.0/gems/nokogiri-1.14.4/ext/nokogiri/ports/x86_64-linux/libgumbo/1.0.0-nokogiri/include is accepted as CPPFLAGS... yes
+checking for gumbo_parse_with_options() in nokogiri_gumbo.h... *** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of necessary
+libraries and/or headers.  Check the mkmf.log file for more details.  You may
+need configuration options.
+
+Provided configuration options:
+	--with-opt-dir
+	--without-opt-dir
+	--with-opt-include
+	--without-opt-include=${opt-dir}/include
+	--with-opt-lib
+	--without-opt-lib=${opt-dir}/lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=/usr/share/rvm/rubies/ruby-3.2.2/bin/$(RUBY_BASE_NAME)
+	--help
+	--clean
+	--prevent-strip
+	--enable-system-libraries
+	--disable-system-libraries
+	--use-system-libraries
+	--enable-system-libraries
+	--disable-system-libraries
+	--use-system-libraries
+	--enable-static
+	--disable-static
+	--enable-cross-build
+	--disable-cross-build
+	--enable-cross-build
+	--disable-cross-build
+	--with-zlib-dir
+	--without-zlib-dir
+	--with-zlib-include
+	--without-zlib-include=${zlib-dir}/include
+	--with-zlib-lib
+	--without-zlib-lib=${zlib-dir}/lib
+	--with-xml2-source-dir
+	--with-xslt-source-dir
+	--enable-cross-build
+	--disable-cross-build
+	--enable-cross-build
+	--disable-cross-build
+
+To see why this extension failed to compile, please check the mkmf.log which can be found here:
+
+  /home/khushi/rails/alpha-blog/vendor/bundle/ruby/3.2.0/extensions/x86_64-linux/3.2.0/nokogiri-1.14.4/mkmf.log
+
+extconf failed, uncaught signal 1
